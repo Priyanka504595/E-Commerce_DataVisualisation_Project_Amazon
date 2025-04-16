@@ -17,10 +17,12 @@ This Project simulates a real-world e-commerce analytics project for an Amazon-l
 - Built fully interactive dashboards and KPIs to reflect **real-time updates** in the database
 
 ---
+
 ## **Data Source Model (ER View)**
 ![DataSource](https://github.com/Priyanka504595/E-Commerce_DataVisualisation_Project_Amazon/blob/master/Datasource.png)
 
 The Tableau data model is built on a well-defined star schema using a live connection to a Microsoft SQL Server database. At the core is the orders fact table, which connects to dimension tables such as customers, sellers, payments, shipping, order_items, and products. Further dimensional context is provided through category and inventory tables. These relationships enable dynamic, real-time insights into customer behavior, sales performance, inventory status, and operational efficiency. This structure ensures scalability, efficient querying, and seamless integration across Tableau visualizations for e-commerce analytics.
+
 ---
 ![D1](https://github.com/Priyanka504595/E-Commerce_DataVisualisation_Project_Amazon/blob/master/D1-Top_Selling_Product.png)
 
